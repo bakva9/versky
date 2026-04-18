@@ -82,7 +82,7 @@ export function ConstellationCanvas({ stars, edges, width = 640, height = 480 }:
       ref={canvasRef}
       width={width}
       height={height}
-      style={{ borderRadius: "12px", display: "block" }}
+      style={{ borderRadius: "12px", display: "block", maxWidth: "100%", height: "auto" }}
     />
   );
 }
