@@ -142,6 +142,35 @@ function App() {
       </main>
 
       {toast && <div className="toast">{toast}</div>}
+
+      <footer className="app-footer">
+        <small>
+          IDF corpus: livedoor ニュースコーパス（提供:{" "}
+          <a
+            href="https://www.rondhuit.com/download.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            株式会社ロンウイット
+          </a>
+          、原著作: NHN Japan、
+          <a
+            href="https://creativecommons.org/licenses/by-nd/2.1/jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CC BY-ND 2.1 JP
+          </a>
+          ） / 形態素解析:{" "}
+          <a
+            href="https://github.com/takuyaa/kuromoji.js"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            kuromoji.js
+          </a>
+        </small>
+      </footer>
     </div>
   );
 }

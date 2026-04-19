@@ -260,3 +260,23 @@ button:disabled {
   from { opacity: 0; transform: translate(-50%, 8px); }
   to { opacity: 1; transform: translate(-50%, 0); }
 }
+
+/* ─────────────────────────────────────────
+   フッター（帰属表示）
+───────────────────────────────────────── */
+.app-footer {
+  margin-top: 32px;
+  padding: 16px 12px 24px;
+  text-align: center;
+  color: rgba(200, 216, 240, 0.35);
+  font-size: 10px;
+  line-height: 1.6;
+}
+.app-footer a {
+  color: rgba(200, 216, 240, 0.55);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.app-footer a:hover {
+  color: rgba(200, 216, 240, 0.85);
+}
